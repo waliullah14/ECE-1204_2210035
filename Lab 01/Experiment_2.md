@@ -1,7 +1,7 @@
 
 ## Experiment No: 02
 ### Date of Submission: 09 September 2024
-### Name of the Experiment: Write a Java program to display the details of a university student, including department, roll number, name, series, and age.
+### Name of the Experiment: To write a C++ program to display the details of a university student, including department, roll number, name, series, and age.
 ### Theory: 
 In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:
 ```cpp
