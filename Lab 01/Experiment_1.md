@@ -63,4 +63,4 @@ int main()
 ![Screenshot 2024-09-09 023041](https://github.com/user-attachments/assets/c3c6cc0a-c92b-4a0d-9efe-41389c2fbffb)
 
 ### Discussion and Conclusion:
-From the experiment, we can learn to create classes and objects in C++ language. We learned to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.
+From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.
