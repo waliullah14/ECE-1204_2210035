@@ -127,9 +127,10 @@ int main()
 }
 ```
 ### OutPut:
-![Screenshot 2024-09-09 023127](https://github.com/user-attachments/assets/9a3ff6ce-ddfa-4dcd-9957-0a5ffaf7b082)
+![Screenshot 2024-09-09 023149](https://github.com/user-attachments/assets/d8b823d9-3610-4058-92de-ef559fbf43e2)
+
 
 
 ### Discussion and Conclusion:
-From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. We learnt to use the getline() function to read a whole line in a string. The concept of OOP reduces the length of our code and makes the code easy to understand.
+From the experiment, we learnt how we can access the private fields of a class using a public function of that class. We used the getSpeed() and getName() functions to access the private fields.
 
