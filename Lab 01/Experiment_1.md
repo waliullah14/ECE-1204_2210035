@@ -1,6 +1,6 @@
 ## Experiment No: 01
 ### Date of Submission: 09 September 2024
-### Name of the Experiment: Write a Java program to store and display information for ten cars, including mileage, color, model, and brand.
+### Name of the Experiment: To Write a C++ program to store and display information for ten cars, including mileage, color, model, and brand.
 ### Theory: 
 In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:
 ```cpp
