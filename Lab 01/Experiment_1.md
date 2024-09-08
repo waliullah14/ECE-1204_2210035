@@ -1,7 +1,8 @@
 ## Experiment No: 01
-## Name of the Experiment: Write a Java program to store and display information for ten cars, including mileage, color, model, and brand.
+### Date of Submission: 09 September 2024
+### Name of the Experiment: Write a Java program to store and display information for ten cars, including mileage, color, model, and brand.
 ### Theory: 
-In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntex is followed:
+In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:
 ```cpp
 class ClassName
 {
@@ -59,5 +60,7 @@ int main()
 }
 ```
 ### OutPut:
-![](/Screenshot 2024-09-09 023041.png)
+![Screenshot 2024-09-09 023041](https://github.com/user-attachments/assets/c3c6cc0a-c92b-4a0d-9efe-41389c2fbffb)
 
+### Discussion and Conclusion:
+From the experiment, we can learn to create classes and objects in C++ language. We learned to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.
