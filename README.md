@@ -6,15 +6,15 @@ Course Code: ECE 1204
 ## Submitted to,
 Hafsa Binte Kibria,   
 Assistant Professor,              
-Department of Electrical and Computer Engineering
-Rajshahi University of Engineering and Technology
+Department of Electrical and Computer Engineering  
+Rajshahi University of Engineering and Technology  
 Rajshahi - 6204
 
 ## Submitted By,
 Waliullah  
 Roll: 2210035  
-Department of Electrical and Computer Engineering
-Rajshahi University of Engineering and Technology
+Department of Electrical and Computer Engineering  
+Rajshahi University of Engineering and Technology  
 Rajshahi - 6204
 
 ## Index
