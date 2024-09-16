@@ -67,6 +67,7 @@ int main()
 
 ### Discussion and Conclusion:
 From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.<br>
+____
 
 ### Experiment No: 02
 ### Name of the Experiment: To write a C++ program to display the details of a university student, including department, roll number, name, series, and age.
@@ -129,7 +130,8 @@ int main()
 
 
 ### Discussion and Conclusion:
-From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. We learnt to use the getline() function to read a whole line in a string. The concept of OOP reduces the length of our code and makes the code easy to understand.<br>
+From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. We learnt to use the getline() function to read a whole line in a string. The concept of OOP reduces the length of our code and makes the code easy to understand.<be>
+___
 
 
 ### Experiment No: 03
