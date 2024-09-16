@@ -5,7 +5,8 @@ ____
 ### Experiment No: 01
 ### Name of the Experiment: To Write a C++ program to store and display information for ten cars, including mileage, color, model, and brand.
 ### Theory: 
-In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:
+<p align = "justify" >In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed: </p>
+
 ```cpp
 class ClassName
 {
@@ -66,13 +67,15 @@ int main()
 ![Screenshot 2024-09-09 023041](https://github.com/user-attachments/assets/c3c6cc0a-c92b-4a0d-9efe-41389c2fbffb)
 
 ### Discussion and Conclusion:
-From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.<br>
+<p align = "justify" >From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.</p>
+
 ____
 
 ### Experiment No: 02
 ### Name of the Experiment: To write a C++ program to display the details of a university student, including department, roll number, name, series, and age.
 ### Theory: 
-In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:
+<p align = "justify" >In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring class the following syntax is followed:</p>
+
 ```cpp
 class ClassName
 {
@@ -130,7 +133,8 @@ int main()
 
 
 ### Discussion and Conclusion:
-From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. We learnt to use the getline() function to read a whole line in a string. The concept of OOP reduces the length of our code and makes the code easy to understand.<be>
+<p align = "justify" >From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. We learnt to use the getline() function to read a whole line in a string. The concept of OOP reduces the length of our code and makes the code easy to understand.</p>
+
 ___
 
 
@@ -158,13 +162,15 @@ private:
 };
 ```
 ### Theory: 
-In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring a class the following syntax is followed:
+<p align = "justify" >In C++ language, different classes and objects can be created and different problems can be solved easily reducing the length of the code. For declaring a class the following syntax is followed: </p>
+
 ```cpp
 class ClassName
 {
 };
 ```
-There are two types of fields in a class private and public. Private fields can not be accessed from the main function directly. To access private fields from main function we need to use a public function or a friend function within that class.
+<p align = "justify" >There are two types of fields in a class private and public. Private fields can not be accessed from the main function directly. To access private fields from main function we need to use a public function or a friend function within that class.</p>
+
 ### Code:
 ```cpp
 #include<iostream>
@@ -224,13 +230,6 @@ int main()
     Car2 c2;
     Car3 c3;
 
-//    c1.getSpeed();
-//    c1.getName();
-//    c2.getSpeed();
-//    c2.getName();
-//    c3.getSpeed();
-//    c3.getName();
-
     if(c1.getSpeed() > c2.getSpeed() && c1.getSpeed() > c3.getSpeed())
     {
         cout << c1.getName() << " is the fastest car." << endl;
@@ -265,5 +264,5 @@ int main()
 
 
 ### Discussion and Conclusion:
-From the experiment, we learnt how we can access the private fields of a class using a public function of that class. We used the getSpeed() and getName() functions to access the private fields.
+<p align = "justify" >From the experiment, we learnt how we can access the private fields of a class using a public function of that class. We used the getSpeed() and getName() functions to access the private fields.</p>
 
