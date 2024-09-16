@@ -1,6 +1,6 @@
 # ECE 1204 - 2210035
-Lab reports and assignment submission for ECE 1204 [Roll: 2210035]              
-Course Name: Object Oriented Programming             
+Lab reports submission for ECE 1204 [Roll: 2210035]              
+Course Name: Object-Oriented Programming Sessional        
 Course Code: ECE 1204
 
 <h2 align = "left" >Submitted to, </h2>
