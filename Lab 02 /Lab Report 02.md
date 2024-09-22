@@ -6,7 +6,7 @@ ____
 <h3 align = "justify"> Name of the Experiment: To Write a C++ program to access the private attributes of a class using friend class and friend function.</h3>
 
 ### Theory: 
-<p align = "justify" >In C++ language, the private members of a class can not be accessed from outside the class. The private members can be accessed using friend function or friend class. Friend function or class can be declared using keyword "friend". <br><br> The syntax for declaring friend function: </p>
+<p align = "justify" >In C++ language, the private members of a class can not be accessed from outside the class. But the private members can be accessed using friend function or friend class. Friend function or class can be declared using the keyword "friend". <br><br> The syntax for declaring friend function: </p>
 
 ```cpp
 class ClassName
@@ -62,11 +62,11 @@ public:
     void setInfo()
     {
 
-        cout << "Name: " << endl;
+        cout << "Name: ";
         cin >> name;
-        cout << "Roll: " << endl;
+        cout << "Roll: ";
         cin >> roll;
-        cout << "Marks: " << endl;
+        cout << "Marks: ";
         cin >> marks;
     }
 
@@ -117,9 +117,8 @@ int main()
         show.display(student[i]);
     }
 
-    float highestMark = 0, lowestMark = 20;
+    float highestMark = 0, lowestMark = 100;
     Teacher get;
-    int highestIndex, lowestIndex;
 
     for (int i = 0; i < studentNumber; i++)
     {
@@ -160,7 +159,7 @@ int main()
         sum += get.getMarks(student[i]);
     }
 
-    cout << "Highest Mark: " << highestMark << "\n" << "Roll: " << highestRoll << "\n" << endl;
+    cout << "\nHighest Mark: " << highestMark << "\n" << "Roll: " << highestRoll << "\n" << endl;
     cout << "Lowest Mark: " << lowestMark << "\n" << "Roll: " << lowestROll  << "\n" << endl;
     cout << "Average Mark:" << (sum/studentNumber) << endl;
 
@@ -171,10 +170,10 @@ int main()
 
 ### Output:
 **Scanning Data:** <br> <br>
-![Screenshot 2024-09-22 141041](https://github.com/user-attachments/assets/e7e185d4-11dc-4c3b-b1e3-02dd6a137abc)
+![Screenshot 2024-09-22 144711](https://github.com/user-attachments/assets/e2124ac4-e62d-4d44-aed1-d64bea428627)
 
 **Printed Output:** <br> <br>
-![Screenshot 2024-09-22 141344](https://github.com/user-attachments/assets/f0fd5645-cb21-4c4b-8d5b-e1c137ab1aa6)
+![Screenshot 2024-09-22 144656](https://github.com/user-attachments/assets/b95ced85-1350-40b0-96ab-a69bf2e0a919)
 
 ### Discussion and Conclusion:
 <p align = "justify" >From the experiment, we can learn how to access the private attributes of a class using the friend function and friend class. For using the friend function we should remember that the friend function is not a member function of any base class. So, we can not call any friend function using the object of the base class though the friend function is declared inside the base class. Similarly, though the friend class is declared inside the base class, it does not automatically inherit the attributes of the base class.</p>
