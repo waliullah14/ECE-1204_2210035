@@ -3,7 +3,7 @@
 ____
 
 ### Experiment No: 01
-<h3 align = "justify"> Name of the Experiment: To Write a C++ program to access the private attributes of a class using friend class and friend function.</h3>
+<h3 align = "justify"> Name of the Experiment: To Write a C++ program to access the private attributes of a class using friend class and the friend function.</h3>
 
 ### Theory: 
 <p align = "justify" >In C++ language, the private members of a class can not be accessed from outside the class. But the private members can be accessed using friend function or friend class. Friend function or class can be declared using the keyword "friend". <br><br> The syntax for declaring friend function: </p>
