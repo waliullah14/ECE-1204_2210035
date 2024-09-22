@@ -3,10 +3,10 @@
 ____
 
 ### Experiment No: 01
-<h3 align = "justify"> Name of the Experiment: To Write a C++ program to access the private members of a class using friend class and friend function.</h3>
+<h3 align = "justify"> Name of the Experiment: To Write a C++ program to access the private attributes of a class using friend class and friend function.</h3>
 
 ### Theory: 
-<p align = "justify" >In C++ language, the private members of a class can not be accessed from outside the class. The private members can be accessed using friend function or friend class. Friend function or class can be declared using keyword "friend" The syntax for declaring friend function: </p>
+<p align = "justify" >In C++ language, the private members of a class can not be accessed from outside the class. The private members can be accessed using friend function or friend class. Friend function or class can be declared using keyword "friend". <br><br> The syntax for declaring friend function: </p>
 
 ```cpp
 class ClassName
@@ -24,6 +24,7 @@ friend returnType functionName(ClassName& object)
   //code here
 }
 ```
+<br>
 <p align = "justify" >The syntax for declaring friend class: </p>
 
 ```cpp
@@ -43,7 +44,7 @@ class ClassName2
 };
 ```
 ### Description of the Problem:
-<p align = "justify" >Create a class named student Student. There will be three private members of the class such as roll, name and marks. creating objects of the Student class assign value to them. Then access those values using a friend function or friend class and finally print the highest and lowest marks and print the roll of the students who got the highest and the lowest marks.</p>
+<p align = "justify" >A class named Student should be created. There will be three private members of the class such as roll, name and marks. Creating objects of the Student class different values should be assigned to them. Then the values should be accessed using a friend function or friend class named Teacher and finally, the highest and lowest marks should be printed along with the the roll of the students who got the highest and the lowest marks.</p>
 
 ### Code:
 ```cpp
@@ -67,7 +68,6 @@ public:
         cin >> roll;
         cout << "Marks: " << endl;
         cin >> marks;
-        cout << "\n";
     }
 
     friend class Teacher;
@@ -108,6 +108,8 @@ int main()
         cout << "\nStudent " << i+1 << ": " << endl;
         student[i].setInfo();
     }
+
+    cout << "\nStudent Info:" << endl;
 
     for (int i = 0; i < studentNumber; i++)
     {
@@ -167,11 +169,14 @@ int main()
 
 ```
 
+### Output:
+**Scanning Data:** <br> <br>
+![Screenshot 2024-09-22 141041](https://github.com/user-attachments/assets/e7e185d4-11dc-4c3b-b1e3-02dd6a137abc)
 
-### OutPut:
-![Screenshot 2024-09-09 023041](https://github.com/user-attachments/assets/c3c6cc0a-c92b-4a0d-9efe-41389c2fbffb)
+**Printed Output:** <br> <br>
+![Screenshot 2024-09-22 141344](https://github.com/user-attachments/assets/f0fd5645-cb21-4c4b-8d5b-e1c137ab1aa6)
 
 ### Discussion and Conclusion:
-<p align = "justify" >From the experiment, we can learn to create classes and objects in C++ language. We learnt to access public the fields of a class from the main function. This concept reduces the length of our code and makes the code easy to understand.</p>
+<p align = "justify" >From the experiment, we can learn how to access the private attributes of a class using the friend function and friend class. For using the friend function we should remember that the friend function is not a member function of any base class. So, we can not call any friend function using the object of the base class though the friend function is declared inside the base class. Similarly, though the friend class is declared inside the base class, it does not automatically inherit the attributes of the base class.</p>
 
 
