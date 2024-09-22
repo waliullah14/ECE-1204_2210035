@@ -24,4 +24,4 @@ Rajshahi - 6204
 | Lab No. | Name of the experiment | Link |
 | :---: | :---: | :---: |
 | Lab 01 | <p align = "left" >**01.** To Write a C++ program to store and display information for ten cars, including mileage, color, model, and brand.<br>**02.** To write a C++ program to display the details of a university student, including department, roll number, name, series, and age.<br>**03.** To complete a given code and compare the speeds of the cars.</p> |[Lab Report 01](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2001/Lab%20Report%2001.md)|
-| <p align = "left" >Lab 02 </p>| <p align = "left" >**01.** To Write a C++ program to access the private attributes of a class using the friend class and friend function.</p> | [Lab Report 02](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2002%20/Lab%20Report%2002.md) |
+| Lab 02 | <p align = "left" >**01.** To Write a C++ program to access the private attributes of a class using the friend class and friend function.</p> | [Lab Report 02](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2002%20/Lab%20Report%2002.md) |
