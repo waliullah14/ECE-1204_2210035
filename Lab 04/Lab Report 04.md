@@ -102,111 +102,98 @@ int main ()
 ___
 
 ### Experiment No: 02
-<h3 align = "justify"> Name of the Experiment: To write a C++ program to implement a class called Date that has private member variables for day, month, and year. Include member functions to set and get these variables, as well as to validate if the date is valid.</h3>
+<h3 align = "justify"> Name of the Experiment: To write a C++ program to find the third largest string in a given array of strings using OOP concept</h3>
 
 ### Theory: 
-<p align = "justify" >The validity of a date can be checked by using information like the number of days in a month and the number of months in a year. For example, February generally contains 28 days but in the leap year February contains 29 days. So, 29th February is a valid date for leap year but not a valid date for other years.</p>
+<p align = "justify" >?In this experiment we will have to find the third largest string from a string type array. To find out the string we will have to compare the string and find the desire string.</p>
 
 ### Code:
 ```cpp
 #include <iostream>
+#include <string>
 #include <conio.h>
 using namespace std;
 
-class Date
+class NewStringArray
 {
 private:
-    int day;
-    int month;
-    int year;
-
+    string* strArr;
+    int arrSize;
 public:
-    void setDate()
+    void setValue(string a[], int s)
     {
-        cout << "Enter Day: ";
-        cin >> day;
-        cout << "Enter Month: ";
-        cin >> month;
-        cout << "Enter Year: ";
-        cin >> year;
+        strArr = a;
+        arrSize = s;
     }
 
-    bool leapYear(int year)
+    void thirdLargest()
     {
-        if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0)
-        {
-            return true;
-        }
+        int largestLenght, secLength, thirdLength, index1, index2, index3;
+        largestLenght = secLength = thirdLength = 0;
 
-        return false;
-    }
-
-    bool validDate()
-    {
-        if (month < 1 || month > 12)
+        for (int i = 0; i < arrSize; i++)
         {
-
-            return false;
-        }
-        else if (day < 1 || day > 31)
-        {
-            return false;
-        }
-
-        else if ((month == 4 || month == 6 || month == 9 || month == 11) && day > 30)
-        {
-            return false;
-        }
-
-        else if (month == 2)
-        {
-            if (leapYear(year))
+            if (strArr[i].length() > largestLenght)
             {
-                if (day > 29) return false;
-            }
-            else
-            {
-                if (day > 28) return false;
+                largestLenght = strArr[i].length();
+                index1 = i;
             }
         }
 
-        return true;
+        for (int i = 0; i < arrSize; i++)
+        {
+            if (strArr[i].length() >= secLength && i != index1)
+            {
+                secLength = strArr[i].length();
+                index2 = i;
+            }
+        }
+
+        for (int i = 0; i < arrSize; i++)
+        {
+            if (strArr[i].length() >= thirdLength && i != index1 && i != index2)
+            {
+                thirdLength = strArr[i].length();
+                index3 = i;
+            }
+        }
+
+        if (secLength == thirdLength)
+        {
+            cout << "Third largest string is: " << strArr[index2] << endl;
+        }
+        else
+        {
+            cout << "Third largest string is: " << strArr[index3] << endl;
+        }
+
     }
 
-    void display()
-    {
-        cout << "\nGiven Date: " << day << "/" << month << "/" << year << endl;
-    }
 };
 
-int main()
+int main ()
 {
-    Date date;
-    date.setDate();
-
-    date.display();
-
-    if (date.validDate())
+    int num;
+    cout << "Enter the number of string in the array: ";
+    cin >> num;
+    string a[num];
+    cout << "Enter the element of the array:" << endl;
+    for (int i = 0; i < num; i++)
     {
-        cout << "The date is valid." << endl;
+        cin >> a[i];
     }
-    else
-    {
-        cout << "The date is invalid." << endl;
-    }
+
+    NewStringArray array1;
+    array1.setValue(a, num);
+    array1.thirdLargest();
 
     getch();
+
 }
 
 ```
 
 ### Output:
-**For Valid Date:** <br> <br>
-![Screenshot 2024-09-29 230212](https://github.com/user-attachments/assets/6194a556-1e16-4ca1-bc6f-a0a2a073065a)
-
-**For Invalid Date:** <br> <br>
-![Screenshot 2024-09-29 230236](https://github.com/user-attachments/assets/25a5749f-b2e5-45d3-88a3-4bd78dac0bd6)
-
+![Screenshot 2024-10-06 200437](https://github.com/user-attachments/assets/d52a6620-0deb-4748-a80d-e2d861cbb336)
 ### Discussion and Conclusion:
-<p align = "justify" >In this Experiment we created a class named Date and then under this class we declared data fields and member functions to check the validity of a given date.</p>
-
+<p align = "justify" >In this experiment, we took different string as input from user. Then we found the length of each string. Then comparing the length, the third largest string was found and printed.</p>
