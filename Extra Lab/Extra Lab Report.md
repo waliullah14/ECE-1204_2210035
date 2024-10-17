@@ -66,7 +66,7 @@ to display the student's information. Create an instance of the Student class an
 details.</h3>
 
 ### Theory: 
-<p align = "justify" >In C++, classes and objects are the basic building block that leads to Object-Oriented programming in C++. In this article, we will learn about C++ classes, objects, look at how they work and how to implement them in our C++ program.</p>
+<p align = "justify" >A class is a user-defined data type, which holds its own data members and member functions, which can be accessed and used by creating an instance of that class. A C++ class is like a blueprint for an object.</p>
 
 ### Code:
 ```cpp
@@ -282,7 +282,7 @@ Intern. Implement methods to calculate and display the salary of each type of em
 Write a program that demonstrates the use of inheritance and method overriding.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >The capability of a class to derive properties and characteristics from another class is called Inheritance. Inheritance is one of the most important features of Object Oriented Programming in C++. In this article, we will learn about inheritance in C++, its modes and types along with the information about how it affects different properties of the class.</p>
 
 ### Code:
 ```cpp
@@ -374,7 +374,7 @@ int  main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/3756b868-8bc1-4af0-a6d9-6cf2e2bbea21)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >Here the  derived class Manager and Intern are derived from the base class Employee. In this code, we override the calculateSalary function to find the total salary of the emplyee.</p>
 
 ___
 
@@ -384,7 +384,7 @@ methods to add and remove books, as well as display all available books. Write a
 to test the functionality of the Library class.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >A class may have private, protected and public members. The public members of a class can be accessed from another class even if they don't have the inheritance relationship.</p>
 
 ### Code:
 ```cpp
@@ -525,7 +525,7 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/893f0d28-5439-49a6-b3bb-4e64d4bb2f72)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code, the Library class accesses public functions of the class Book. Using the library class we can add books, remove books and display the information of the books.</p>
 
 ___
 
@@ -535,7 +535,7 @@ to add items to the cart, remove items, and calculate the total price. Write a p
 the functionality of the ShoppingCart class.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In a shopping place we usually add times and we can see all the item in the cart. We can see the total price of the products after we add different items to the cart. So, we have to write a code that can do all these functions.</p>
 
 ### Code:
 ```cpp
@@ -639,7 +639,7 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/4a98dd3b-ae34-4a70-9003-f72f792e5850)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code we initialise a class named ShoppingCart, after assigning the product name and price, we can see the total price in the console. Also we can remove products from the cart using removeProduct funtion.</p>
 
 ___
 
@@ -649,7 +649,7 @@ subclasses WashingMachine and Refrigerator that implement this method. Write
 a program that demonstrates method overriding(function overriding).</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >A class that contains at least one pure virtual function is called an abstract class. The pure virtual function must be overridden in the derived class because we can not create object of an abstract class.</p>
 
 ### Code:
 ```cpp
@@ -698,7 +698,7 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/47eac48c-38a1-45bf-8590-8b5f32fe6443)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >Here the Appliance class is an abstract class that holds a pure virtual function turnOn. The turnOn function was overridden in the derived class Refrigerator and class WashingMachine</p>
 
 ___
 
@@ -708,7 +708,7 @@ methods to add, remove, and search for students by ID. Write a program to test t
 class.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In a school, there are usually several students. So in this code we will have to design the School class such a way, so that the School class can control that is can add student, remove student and can search for a student.</p>
 
 ### Code:
 ```cpp
@@ -840,12 +840,14 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/99748ddc-9c4d-4506-8708-17d573399da6)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code, the class School has the ability to admit a student. The student will have an ID and name. We can print the information of the student and also can search and remove a particular student.</p>
 
 ___
 
 ### Experiment No: 10
-<h3 align = "justify"> Name of the Experiment: Text.</h3>
+<h3 align = "justify"> Name of the Experiment: Create a class Game that has methods to start, pause, and end the game. Implement a
+method to display the game's status. Write a program that simulates a simple game using
+the Game class.</h3>
 
 ### Theory: 
 <p align = "justify" >Text</p>
@@ -966,7 +968,9 @@ int main()
 ___
 
 ### Experiment No: 11
-<h3 align = "justify"> Name of the Experiment: Text.</h3>
+<h3 align = "justify"> Name of the Experiment: Design a class Person that includes a static variable to count the number of Person
+objects created. Implement a method to display the total count of persons. Write a program
+that creates several Person objects and displays the count.</h3>
 
 ### Theory: 
 <p align = "justify" >Text</p>
@@ -1039,7 +1043,11 @@ int main()
 ___
 
 ### Experiment No: 12
-<h3 align = "justify"> Name of the Experiment: Text.</h3>
+<h3 align = "justify"> Name of the Experiment: Define a class Complex with private members real and imaginary. Overload the
+operators +, -, *, and / to perform addition, subtraction, multiplication, and division of
+two complex numbers, respectively. Create a constructor to initialize the complex number
+and include a method to display the result. The main() function should be used to test
+these overloaded operators.</h3>
 
 ### Theory: 
 <p align = "justify" >Text</p>
@@ -1129,7 +1137,11 @@ int main()
 ___
 
 ### Experiment No: 13
-<h3 align = "justify"> Name of the Experiment: Text.</h3>
+<h3 align = "justify"> Name of the Experiment: Define a class Rectangle with private members length and breadth. Overload the
+operators == to check if two rectangles have equal areas, and > and < to compare if one
+rectangle is larger or smaller than the other based on area. Implement a constructor to
+initialize the rectangle's dimensions and a method to calculate its area. The main()
+function should test the overloaded operators.</h3>
 
 ### Theory: 
 <p align = "justify" >Text</p>
