@@ -8,7 +8,7 @@ to display the book's details. Write a program that instantiates a Book object a
 its details.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In C++, class is considered as a user defined data type. A class usually contains data members and member functions. Creating the object of the class we can access the attributes of the class.</p>
 
 ### Code:
 ```cpp
@@ -56,7 +56,7 @@ int main()
 ### Output:
 ![Screenshot 2024-10-17 180751](https://github.com/user-attachments/assets/01ce36ca-03f4-4881-9690-8d6365c750a1)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this experiment, we declared a class named Book. Using the public function setValue, we assign data to the private members and then print the data using the display function.</p>
 
 ___
 
@@ -66,7 +66,7 @@ to display the student's information. Create an instance of the Student class an
 details.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In C++, classes and objects are the basic building block that leads to Object-Oriented programming in C++. In this article, we will learn about C++ classes, objects, look at how they work and how to implement them in our C++ program.</p>
 
 ### Code:
 ```cpp
@@ -107,7 +107,7 @@ int main()
 ### Output:
 ![Screenshot 2024-10-17 181351](https://github.com/user-attachments/assets/e0d81102-ada3-4a46-9395-2c17807c2bdc)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code, under the student class we declare different data and functions. We assign value to the members using the parameterized constructor. Then using the display function we print the values.</p>
 
 ___
 
@@ -117,7 +117,7 @@ ___
 perform calculations using the Calculator class.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >A calculator usually do different operation according to the input. We can build a calculator using a Calculator class and defining different functions to calculate values by taking input from users.</p>
 
 ### Code:
 ```cpp
@@ -203,7 +203,7 @@ int main()
 ### Output:
 ![Screenshot 2024-10-17 181508](https://github.com/user-attachments/assets/c9138cf7-e726-4936-ac33-4bc7550c921c)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code, we have scope to find out the sum, product and quotient of two numbers. Two numbers will be taken from user and user will choose an operator. Then the result will be shown in the console.</p>
 
 ___
 
@@ -213,7 +213,7 @@ the person is an adult (18 years or older). Instantiate a Person object and chec
 are an adult.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >A person is considered to be an adult if he is above eighteen years old. So we will check the age and differentiate among adults and childresn.</p>
 
 ### Code:
 ```cpp
@@ -272,7 +272,7 @@ int main()
 ### Output:
 ![Screenshot 2024-10-17 181637](https://github.com/user-attachments/assets/c46aab80-864b-4278-b716-f4915849f61e)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >Here we can assign age of a person in the  data member age. Then the isAdult function checks if the person is an adult or not. If the person is an adult, the function returns true.</p>
 
 ___
 
