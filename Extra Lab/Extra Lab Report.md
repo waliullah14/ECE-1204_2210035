@@ -850,7 +850,7 @@ method to display the game's status. Write a program that simulates a simple gam
 the Game class.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In a game, players can perform some operations like starting the game, pausing, and ending the game. For this there remains different functions in the code of the game. But we must be careful about when we can do which operation. Like we can not end the game before starting.</p>
 
 ### Code:
 ```cpp
@@ -963,7 +963,7 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/8a09fa4b-bcf4-4a2f-9228-58a0f1a26983)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >Using this code we can start, pause, resume and end the game. After we call any of these function, the code also shows the status of the game.</p>
 
 ___
 
@@ -973,7 +973,7 @@ objects created. Implement a method to display the total count of persons. Write
 that creates several Person objects and displays the count.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >When a variable is declared as static, space for it gets allocated for the lifetime of the program. Even if the function is called multiple times, space for the static variable is allocated only once and the value of the variable in the previous call gets carried through the next function call. This is useful for implementing coroutines in C/C++.</p>
 
 ### Code:
 ```cpp
@@ -1038,7 +1038,7 @@ int main()
 ![image](https://github.com/user-attachments/assets/b68ccba6-6f63-411a-bc54-7397586831fa)
 
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code personCount is a static variable. Every time we create an object, the value of personCount increase by one through the construct. At last we can print the value of the variable to see the number of object.</p>
 
 ___
 
@@ -1050,7 +1050,7 @@ and include a method to display the result. The main() function should be used t
 these overloaded operators.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >C++ has the ability to provide the operators with a special meaning for a data type, this ability is known as operator overloading. Operator overloading is a compile-time polymorphism.</p>
 
 ### Code:
 ```cpp
@@ -1132,7 +1132,7 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/340f1e7a-40d9-47f9-9b0f-8f8049ba31e2)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >In this code we overloaded the +, -, /, and * operators so that we can use this operator when they are placed between two user-defined operands. Here overloading these operators we made these operators compatible with complex number calculation.</p>
 
 ___
 
