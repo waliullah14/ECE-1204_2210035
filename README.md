@@ -27,4 +27,4 @@ Rajshahi - 6204
 | Lab 02 | <p align = "left" >**01.** To Write a C++ program to access the private attributes of a class using the friend class and friend function.</p> | [Lab Report 02](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2002%20/Lab%20Report%2002.md) |
 | Lab 03 | <p align = "left" >**01.** To solve different problems using C++ language.</p> | [Lab Report 03](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2003/Lab%20Report%2003.md) |
 | Lab 04 | <p align = "left" >**01.** To write a C++ program to find the second lowest and second highest numbers in a given array using OOP concept.<br>**02.** To write a C++ program to find the third largest string in a given array of strings using OOP concept</p> | [Lab Report 04](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Lab%2004/Lab%20Report%2004.md) |
-
+| Extra Lab | <p align = "left" >**01.** To solve different problems using C++ language.</p> | [Extra Lab Report](https://github.com/waliullah14/ECE-1204_2210035/blob/main/Extra%20Lab/Extra%20Lab%20Report.md) |
