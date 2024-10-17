@@ -1144,7 +1144,7 @@ initialize the rectangle's dimensions and a method to calculate its area. The ma
 function should test the overloaded operators.</h3>
 
 ### Theory: 
-<p align = "justify" >Text</p>
+<p align = "justify" >In C++, we can define how operators behave for user-defined types like class and structures. This is called operator overloading. Almost all operators of C++, except a few can be overloaded.</p>
 
 ### Code:
 ```cpp
@@ -1216,6 +1216,6 @@ int main()
 ### Output:
 ![image](https://github.com/user-attachments/assets/b2b87fa5-08d5-46ea-b065-d2ef61cab2f3)
 ### Discussion and Conclusion:
-<p align = "justify" >Text.</p>
+<p align = "justify" >Here in this code, we overload few operators to compare the size of the rectangles based on their area. Here, ==, << and >> basically compare the area of the two Rectangle object and return true or false.</p>
 
 ___
